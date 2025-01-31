@@ -15,7 +15,7 @@ jobs:
       - name: Lint code
         run: npm run lint
       - name: Output info
-        run: echo "Cache Used: ${{ steps.cache-from-compostite.outputs.used-cache }}"
+        run: echo "Cache Used = ${{ steps.cache-from-compostite.outputs.used-cache }}"
   test:
     runs-on: ubuntu-latest
     steps:
