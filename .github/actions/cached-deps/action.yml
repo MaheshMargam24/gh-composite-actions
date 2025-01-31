@@ -8,7 +8,7 @@ inputs:
 outputs:
   used-cache:
     description: Weather the cache was used
-    value: ${{ steps.in }}
+    value: ${{ steps.install-deps }}
 runs:
   using: 'composite'
   steps:
